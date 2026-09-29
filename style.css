@@ -1,0 +1,76 @@
+﻿body {
+    margin: 0;
+    background: #ffffffd9;
+    font-family: 'Courier New', monospace;
+    color: #2e3de8;
+    overflow-x: hidden;
+}
+header {
+    background: #000000;
+    color: #ffffff;
+    text-align:center;
+    padding: 60px 20px;
+}
+header h1 {
+    font-size: 48px;
+    margin: 0 0 10px;
+}
+header p {
+    font-size: 20px
+}
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+section { 
+    background: rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1)
+}
+section h2 {
+    margin-top: 0;
+}
+g {
+    color: #ffffff;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 2px dashed #f69c55;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+nav {
+    background: #2e3de8;
+    background-color: #2e3de8;
+    padding: 15px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+nav div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+        max-width: 1400px;
+        height: 40px;
+        margin: auto;
+    }
+span {
+    margin: 0px 0px 0px -25px;
+    color: white;
+    font-size: 40px;
+}
+a:hover {
+    background: white;
+    color: #2e3de8;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
