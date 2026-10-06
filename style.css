@@ -65,11 +65,11 @@ span {
     color: white;
     font-size: 40px;
 }
-nav > a:hover {
+nav a:hover {
     background: white;
     color: #2e3de8;
 }
-nav > a {
+nav a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
