@@ -69,8 +69,12 @@ a:hover {
     background: white;
     color: #2e3de8;
 }
-a {
+nav < a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
+}
+#projects {
+    color: white;
+    text-decoration: none;
 }
