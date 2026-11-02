@@ -1,57 +1,31 @@
-﻿body {
+@font-face {
+    font-family: 'Reqiem';
+    src: url('fonts/requiem.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ReqiemUpper';
+    src: url('Fonts/requiemU.ttf');
+}
+
+
+body {
     margin: 0;
-    background: #ffffffd9;
-    font-family: 'Courier New', monospace;
-    color: #2e3de8;
     overflow-x: hidden;
+    background: radial-gradient(#3331ed, #000000 70%);
+    background-attachment: fixed;
+    color: white;
 }
-header {
-    background: #000000;
-    color: #ffffff;
-    text-align:center;
-    padding: 60px 20px;
+a {
+    text-decoration: none;
 }
-header h1 {
-    font-size: 48px;
-    margin: 0 0 10px;
-}
-header p {
-    font-size: 20px
-}
-main {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
-section { 
-    background: rgba(0,0,0,0.1);
-    padding: 30px;
-    margin-bottom: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1)
-}
-section h2 {
-    margin-top: 0;
-}
-g {
-    color: #ffffff;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    border: 2px dashed #f69c55;
-}
-span {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
-}
+
+
 nav {
-    background: #2e3de8;
-    background-color: #2e3de8;
     padding: 15px 30px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #000000;
+    font-family: 'Reqiem';
 }
-nav div {
+    nav ul {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -59,21 +33,100 @@ nav div {
         max-width: 1400px;
         height: 40px;
         margin: auto;
+        list-style-type: none;
     }
+#Navbutt {
+    display: inline-block;
+    padding: 15px 35px;
+    border: 1px solid #4b49ff;
+    background: linear-gradient(180deg, #1e1d7a 0%, #000000 100%);
+    color: #3331ed;
+    font-family: "ReqiemUpper";
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+    #Navbutt:hover {
+        background: linear-gradient(180deg, #4b49ff 0%, #000000 100%);
+        color: #4b49ff;
+    }
+
+
+header {
+    padding: 60px 20px;
+    border-bottom: 3px solid #3331ed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 8px 25px #0008;
+    text-align: center;
+}
+    header h1 {
+        margin: 0 0 20px;
+        color: black;
+        font-family: ReqiemUpper;
+        font-size: clamp(40px, 8vw, 90px);
+        letter-spacing: 3px;
+        text-shadow: 0 0 12px #3331ed;
+    }
+    header p {
+        font-size: 20px;
+        color: #3331ed;
+    }
+
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+section {
+    margin-bottom: 25px;
+    padding: 30px;
+    border: 1px solid #3331ed ;
+    border-radius: 12px;
+    background-color: #0d0b08;
+    color: #f5edf5;
+    box-shadow: 0 4px 18px #0006;
+    line-height: 1.7
+}
+    section h2 {
+        margin-top: 0;
+        color: #3331ed;
+    }
+
+
+g {
+    height: 100px;
+    border: 2px dashed #f69c55;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+}
+
+
 span {
-    margin: 0px 0px 0px -25px;
-    color: white;
+    display: inline-block;
+    margin-left: 0,0,0,-25px;
+    color: #ffffffff;
     font-size: 40px;
+    line-height: normal;
+    vertical-align: middle;
 }
-nav a:hover {
-    background: white;
-    color: #2e3de8;
-}
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-}
+
+
 #projects {
-    color: black;
+    color: #3331ed;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #1e1d7a;
 }
