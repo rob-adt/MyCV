@@ -63,7 +63,7 @@ header {
 }
     header h1 {
         margin: 0 0 20px;
-        color: black;
+        color: white;
         font-family: ReqiemUpper;
         font-size: clamp(40px, 8vw, 90px);
         letter-spacing: 3px;
